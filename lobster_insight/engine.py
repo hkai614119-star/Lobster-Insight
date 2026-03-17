@@ -99,3 +99,4 @@ class LobsterInsightEngine:
         if quality_views and not any("few clearly verifiable facts" in fact.lower() for fact in facts):
             return "Medium", "There is at least one quality counter-view, but hard verification is still limited."
         return "Low", "The current batch is dominated by hype language and weak factual density."
+

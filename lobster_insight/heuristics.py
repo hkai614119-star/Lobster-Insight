@@ -128,3 +128,4 @@ def extract_quality_viewpoints(posts: List[str]) -> List[str]:
             deduped.append(item)
             seen.add(key)
     return deduped[:3]
+

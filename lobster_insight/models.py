@@ -23,3 +23,4 @@ class AnalysisReport(BaseModel):
     final_one_line_verdict: str
     confidence: str
     confidence_reason: str
+
